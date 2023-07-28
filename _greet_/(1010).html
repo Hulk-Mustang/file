@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOWNLOAD FILES</title>
+    <style>
+        meter{
+            border: 1px solid;
+            width: 500px;
+            height: 25px;
+            border-radius: 0;
+            color: #FFC200;
+        }
+        .getItem{
+            margin: 50px auto;
+            text-align: center;
+            background-color: rgba(245, 245, 245, 0.526);
+            padding: 50px;
+            width: 500px;
+            border-radius: 20px;
+        }
+        #text{
+            color: #daa700;
+            font-family: OCR A Std, monospace;
+            font-size: xx-large;
+        }
+        body{
+            background-image: url(forest.jpg);
+        }
+        button{
+            outline: none;
+        }
+
+        #format{
+            outline: none;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px dashed darkorange;
+            margin: 50px;
+            color: #444;
+        }
+        .name{
+            margin-top: 60px;
+            font-family: OCR A Std, monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="getItem">
+
+        <input type="text" id="format" placeholder="DOC, DOTX, PDF, RTF, TXT">
+        <br>
+        <meter id="progress" min="0" max="100" value="-"></meter>
+        <p id="text">0%</p>
+
+    <button id="btn">Download</button>
+    <button id="stop">Cancel</button>
+
+
+    </div>
+     <script src="(1010).js"></script>
+</body>
+</html>
